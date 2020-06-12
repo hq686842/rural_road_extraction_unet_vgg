@@ -5,6 +5,7 @@
 ![Image text](https://github.com/hq-hub/rural_road_extraction_unet_vgg/blob/master/image/data.PNG)
 ## 项目文件介绍
 data.ipynb：读取图片将图片转化为numpy数组存放在npy_data文件夹中；
+
 unet.ipynb：训练unet;
 VGG_Unet.ipynb:训练结合vgg-16进行迁移学习的unet;
 predict.ipynb:使用训练好的unet对道路图片进行提取测试,将测试结果保存在results文件夹中；
